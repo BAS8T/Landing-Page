@@ -1,0 +1,97 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #1F2937;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.First-Main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Header-Left {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Header-Right {
+    font-size: 18px;
+    color: #e5e7eb;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    display: flex;
+    margin: 0 10px;
+}
+
+.Second-Main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 200px;
+    gap: 150px;
+}
+
+.Second-Left {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    flex-basis: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.Second-Header {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Second-Left-Button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    border-radius: 5px;
+    height: 35px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 4px;
+    border: 0px;
+}
+
+.Second-Right {
+    display: flex;
+    max-width: 700px;
+    flex-basis: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.Second-Right-Image {
+    height: 325px;
+    width: 700px;
+}
